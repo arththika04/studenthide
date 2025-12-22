@@ -1,21 +1,16 @@
-import { Link } from "react-router-dom";
-
 function Dashboard() {
   return (
-    <div className="container mt-5">
-      <div className="card text-center">
-        <div className="card-body">
-          <h3 className="card-title">
-            Welcome to Student Attendance
-          </h3>
-          <p className="card-text text-muted">
-            Click below to manage attendance
-          </p>
+    <div className="vh-100 d-flex justify-content-center align-items-center">
+      <div className="text-center">
+        <h1 className="mb-3">Student Attendance System</h1>
 
-          <Link to="/attendance" className="btn btn-primary">
-            Go to Attendance
-          </Link>
-        </div>
+        <p className="text-muted mb-4">
+          Welcome! Click below to manage attendance.
+        </p>
+
+        <a href="/attendance" className="btn btn-primary">
+          Go to Attendance
+        </a>
       </div>
     </div>
   );
