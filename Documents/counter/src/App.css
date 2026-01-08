@@ -40,18 +40,3 @@
 .read-the-docs {
   color: #888;
 }
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-#root {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;     
-  justify-content: center;    
-}
-.app-container {
-  width: 100%;
-  max-width: 1000px;
-}
